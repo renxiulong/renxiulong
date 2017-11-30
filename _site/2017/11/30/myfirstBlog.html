@@ -1,25 +1,62 @@
+<h2 id="gfm格式说明">GFM格式说明</h2>
+<p>第一篇使用GFM手工写的文档，自己做备查用，刚开始用不熟悉，生命不息，学习不止，注意跟GFW是两回事哦~~</p>
+
+<h4 id="基础书写格式">基础书写格式</h4>
+
+<h3 id="段落">段落</h3>
+
+<p>连续的一行或者多行就是一个段落。默认是不会缩进的，如果想换行的话使用两个空格，换段落至少一个的换行。</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>这是第一个段落  
+我跟上面是一个段落
+
+我是第二个段落
+</code></pre></div></div>
+
+<h3 id="标题">标题</h3>
+<p>使用<code class="highlighter-rouge">#</code>来定义标题，几个<code class="highlighter-rouge">#</code>代表几级标题，肯定是越少字体越大了，哈哈<br />
+example:<br />
+#一级标题<br />
+##二级标题<br />
+###三级标题</p>
+
 <h2 id="大标题">大标题</h2>
 <h3 id="小标题">小标题</h3>
 <h4 id="超小标题">超小标题</h4>
 <p>超大标题
-===
- 标题</p>
+======
+ 标题
+——</p>
 
-<pre><code class="language-html">## 大标题
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 大标题
 ### 小标题
 #### 超小标题
  超大标题
 ===
  标题
 ---
-</code></pre>
-<pre><code class="language-html">&lt;a href="#"&gt;Hello world&lt;/a&gt;
-</code></pre>
-<pre><code class="language-python">    def parse(self):
-        lat = 122.21
-        lng = 45.23
-        print('lat:'+lat + ' lng:'+lng)
-</code></pre>
-<p><code>​</code><code> html
+</code></pre></div></div>
+<blockquote>
+  <p>Bill says: python is better.</p>
+  <blockquote>
+    <p>Tim says: This is amazing.</p>
+  </blockquote>
+
+  <p>Bill says: haha</p>
+  <hr />
+  <p>this is <code class="highlighter-rouge">print()</code> function.</p>
+</blockquote>
+
+<p>This para line starts at the first column. However,
+      the following lines can be indented any number of spaces/tabs.<br />
+    The para continues here.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Hello world<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">def</span> <span class="nf">parse</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">lat</span> <span class="o">=</span> <span class="mf">122.21</span>
+        <span class="n">lng</span> <span class="o">=</span> <span class="mf">45.23</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">'lat:'</span><span class="o">+</span><span class="n">lat</span> <span class="o">+</span> <span class="s">' lng:'</span><span class="o">+</span><span class="n">lng</span><span class="p">)</span>
+</code></pre></div></div>
+<p><code class="highlighter-rouge">​</code><code class="highlighter-rouge"> html
 &lt;a href="#"&gt;Hello world&lt;/a&gt;
 </code>​``</p>
