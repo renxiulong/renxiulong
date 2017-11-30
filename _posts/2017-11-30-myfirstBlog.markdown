@@ -95,59 +95,11 @@ example:
       2. 第二小节
 ~~~
 效果:  
-    * 第一章  
-      * 第一小节  
-      * 第二小节  
-    * 第二章  
-      1. 第一小节  
-      2. 第二小节  
+* 第一章  
+  * 第一小节  
+  * 第二小节  
+* 第二章  
+  1. 第一小节  
+  2. 第二小节  
 
-
-
-
-
-
-
-
-
-
-## 大标题
-### 小标题
-#### 超小标题
- 超大标题
-======
- 标题
-------
-
-~~~ html
-## 大标题
-### 小标题
-#### 超小标题
- 超大标题
-===
- 标题
----
-~~~
-> Bill says: python is better.  
-> > Tim says: This is amazing.  
->
-> Bill says: haha  
-* * *
-this is `print()` function.  
-
-This para line starts at the first column. However,
-      the following lines can be indented any number of spaces/tabs.\\
-    The para continues here.
-
-~~~ html
-<a href="#">Hello world</a>
-~~~
-~~~ python
-    def parse(self):
-        lat = 122.21
-        lng = 45.23
-        print('lat:'+lat + ' lng:'+lng)
-~~~
-`​`` html
-<a href="#">Hello world</a>
-`​``
+### 今天先写到这里，后续再添加~~~
