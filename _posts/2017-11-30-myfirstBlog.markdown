@@ -1,14 +1,22 @@
 ---
 title: my first blog
 ---
+## 大标题
+### 小标题
+#### 超小标题
+ 超大标题
+===
+ 标题
 
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
+~~~ html
+## 大标题
+### 小标题
+#### 超小标题
+ 超大标题
+===
+ 标题
+---
+~~~
 ~~~ html
 <a href="#">Hello world</a>
 ~~~
