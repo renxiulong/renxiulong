@@ -1,18 +1,36 @@
 ---
 ---
 <!DOCTYPE HTML>
-<html>
+<html lang="zh-cmn-Hans">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>renxiulong's blog</title>
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<style>
+</style>
 </head>
 <body>
-<h1>Welcome to renxiulong's blog!</h1>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+    <div class="jumbotron">
+        <h1 class="text-center">Welcome to renxiulong's <mark>blog</mark>!</h1>
+    </div>
+<div class="container">
+    <div>
+        <blockquote>
+            <p>In the below the file list is my blogs collection.</p>
+            <p><a href="http://v.iqilu.com/live/typd/">sdtv sports live</a></p>
+        </blockquote>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+    </div>
+    <div id="flashContent">
+    </div>
+</div>
 </body>
 </html>
