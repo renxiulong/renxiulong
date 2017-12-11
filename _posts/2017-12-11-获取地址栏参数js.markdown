@@ -1,0 +1,34 @@
+---
+title: 通过JS获取网页地址栏的参数
+---
+## 通过JS获取网页地址栏的参数  
+由于多次使用在此记录下来获取网页地址栏的参数，如果是JSP的话，可以在头部信息通过request获取。
+以下记录的是纯JS函数获取的方法
+
+''' javascript
+    /*--获取网页传递的参数--*/
+    function request(paras)
+    { 
+        var url = location.href; 
+        var paraString = url.substring(url.indexOf("?")+1,url.length).split("&"); 
+        var paraObj = {} 
+        for (i=0; j=paraString[i]; i++){ 
+        paraObj[j.substring(0,j.indexOf("=")).toLowerCase()] = j.substring(j.indexOf("=")+1,j.length); 
+        } 
+        var returnValue = paraObj[paras.toLowerCase()]; 
+        if(typeof(returnValue)=="undefined"){ 
+            return ""; 
+        }else{ 
+            return returnValue; 
+        }
+    }
+'''
+
+#### 使用方法
+var type = request("type");
+例如地址栏:http://127.0.0.1/demo?type=json
+获取type的值json的方法:
+var type = request("type");
+此时type就是保存的json这个值了。
+
+### 今天先写到这里，后续再添加~~~
