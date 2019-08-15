@@ -3,6 +3,7 @@
 2. git commit -m "注释"
 3. git push
 4. git status 查看修改文件的状态  
+5. git push -f 强制上传
 
 ---
 ### 基本流程
