@@ -103,5 +103,5 @@ example:
   2. 第二小节  
 
 ------
-*** 可以通过网站来学习，比如:[在线编辑markdown网址](https://www.mdeditor.com/) ***
+***可以通过网站来学习，比如:[在线编辑markdown网址](https://www.mdeditor.com/)***
 ### 今天先写到这里，后续再添加~~~
