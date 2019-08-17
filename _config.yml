@@ -1,9 +1,9 @@
-#theme: jekyll-theme-cayman
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-highlighter: rouge
-encoding: utf-8
 theme: jekyll-theme-cayman
+#markdown: kramdown
+
+#kramdown:
+#  input: GFM
+#  syntax_highlighter: rouge
+#highlighter: rouge
+#encoding: utf-8
+#theme: jekyll-theme-cayman
