@@ -41,3 +41,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
     <a href="{{ post.url }}">{{ post.date }}</a>
   </li>
 {% endfor %}
+{% for post in site.posts %}
+   {{ post.url }} {{ post.title }} {{ post.date }}
+    {{ post.excerpt | remove: 'test' }}
+{ % endfor % }
