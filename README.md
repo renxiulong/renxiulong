@@ -42,6 +42,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   </li>
 {% endfor %}
 {% for post in site.posts %}
-   . {{ post.url }} {{ post.title }} {{ post.date }}   
-   . {{ post.excerpt | remove: 'test' }}   
+   . [{{ post.title }} {{ post.date }}]({{ post.url }})   
+   > {{ post.excerpt | remove: 'test' }}   
 {% endfor %}
